@@ -1,11 +1,11 @@
-[info] Updating {file:/C:/source/Coursera/recfun/project/}recfun-build...
-[debug] :: resolving dependencies :: default#recfun-build;0.1-SNAPSHOT
+[info] Updating {file:/C:/source/scala/scala_coursera/project/}scala_coursera-build...
+[debug] :: resolving dependencies :: default#scala_coursera-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving org.scala-sbt#global-plugins;0.0 ...
@@ -13,15 +13,15 @@
 [debug] 	found org.scala-sbt#global-plugins;0.0 in inter-project
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving org.scalastyle#scalastyle_2.10;0.8.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;0.8.0 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scalastyle#scalastyle_2.10;0.8.0
 [debug] 	found org.scalastyle#scalastyle_2.10;0.8.0 in sbt-chain
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -88,18 +88,18 @@
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scalariform#scalariform_2.10;0.1.7 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving org.scalaj#scalaj-http_2.10;2.2.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalaj#scalaj-http_2.10;2.2.1 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scalaj#scalaj-http_2.10;2.2.1
 [debug] 	found org.scalaj#scalaj-http_2.10;2.2.1 in sbt-chain
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -111,30 +111,30 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.7 [runtime->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving commons-codec#commons-codec;1.10 ...
 [debug] sbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.10 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.10
 [debug] 	found commons-codec#commons-codec;1.10 in sbt-chain
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving org.apache.commons#commons-lang3;3.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-lang3;3.4 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.4
 [debug] 	found org.apache.commons#commons-lang3;3.4 in sbt-chain
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4 ...
@@ -205,7 +205,7 @@
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4->org.scalaz#scalaz-effect_2.10;7.2.14 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.22 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.22 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving org.scala-js#sbt-scalajs;0.6.22 ...
@@ -544,15 +544,15 @@
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.22->org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.22 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving io.get-coursier#sbt-coursier;1.0.2 ...
 [debug] sbt-chain: Checking cache for: dependency: io.get-coursier#sbt-coursier;1.0.2 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: io.get-coursier#sbt-coursier;1.0.2
 [debug] 	found io.get-coursier#sbt-coursier;1.0.2 in sbt-chain
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.2->io.get-coursier#coursier_2.10;1.0.2 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -945,26 +945,26 @@
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.2->io.get-coursier#coursier-extra_2.10;1.0.2 [runtime->compile]
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.2->io.get-coursier#sbt-shared;1.0.2 [runtime->runtime(*)]
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.2->io.get-coursier#sbt-shared;1.0.2 [runtime->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1018,16 +1018,16 @@
 [debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.7->org.scala-lang#scala-library;2.10.7 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1039,26 +1039,26 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.7 [runtime->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -1121,7 +1121,7 @@
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4->org.scalaz#scalaz-effect_2.10;7.2.14 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.22 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.22 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -1410,13 +1410,13 @@
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.22->org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.22 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.2->io.get-coursier#coursier_2.10;1.0.2 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -1760,14 +1760,14 @@
 [debug] == resolving dependencies io.get-coursier#sbt-shared;1.0.2->com.dwijnand#sbt-compat;1.2.5 [runtime->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -1776,15 +1776,15 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1844,18 +1844,18 @@
 [debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.7->org.scala-lang#scala-library;2.10.7 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1867,30 +1867,30 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.7 [runtime->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -1959,7 +1959,7 @@
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4->org.scalaz#scalaz-effect_2.10;7.2.14 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.22 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.22 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -2280,15 +2280,15 @@
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.22->org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.22 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.2->io.get-coursier#coursier_2.10;1.0.2 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -2648,18 +2648,18 @@
 [debug] == resolving dependencies io.get-coursier#sbt-shared;1.0.2->com.dwijnand#sbt-compat;1.2.5 [runtime->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->default(compile)]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->master]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.17 [provided->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.17 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving org.scala-sbt#sbt;0.13.17 ...
@@ -4436,11 +4436,11 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -4451,7 +4451,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -4460,8 +4460,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -4527,10 +4527,10 @@
 [debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.7->org.scala-lang#scala-library;2.10.7 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -4539,8 +4539,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -4552,10 +4552,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.7 [runtime->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -4564,10 +4564,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -4576,10 +4576,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -4654,7 +4654,7 @@
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4->org.scalaz#scalaz-effect_2.10;7.2.14 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.22 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.22 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -5007,7 +5007,7 @@
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.22->org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.22 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -5016,8 +5016,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.2->io.get-coursier#coursier_2.10;1.0.2 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -5393,16 +5393,16 @@
 [debug] == resolving dependencies io.get-coursier#sbt-shared;1.0.2->com.dwijnand#sbt-compat;1.2.5 [runtime->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->default(compile)]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->master]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.17 [provided->default(compile)]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.17 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -7212,10 +7212,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -7226,7 +7226,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -7235,8 +7235,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -7302,10 +7302,10 @@
 [debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.7->org.scala-lang#scala-library;2.10.7 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -7314,8 +7314,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -7327,10 +7327,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.7 [runtime->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -7339,10 +7339,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -7351,10 +7351,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -7429,7 +7429,7 @@
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4->org.scalaz#scalaz-effect_2.10;7.2.14 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.22 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.22 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -7782,7 +7782,7 @@
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.22->org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.22 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -7791,8 +7791,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.2->io.get-coursier#coursier_2.10;1.0.2 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -8168,16 +8168,16 @@
 [debug] == resolving dependencies io.get-coursier#sbt-shared;1.0.2->com.dwijnand#sbt-compat;1.2.5 [runtime->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -8192,7 +8192,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -8205,8 +8205,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -8284,10 +8284,10 @@
 [debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.7->org.scala-lang#scala-library;2.10.7 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -8300,8 +8300,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -8313,10 +8313,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.7 [runtime->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -8329,10 +8329,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -8345,10 +8345,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -8435,7 +8435,7 @@
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4->org.scalaz#scalaz-effect_2.10;7.2.14 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.22 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.22 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -8852,7 +8852,7 @@
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.22->org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.22 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -8865,8 +8865,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.2->io.get-coursier#coursier_2.10;1.0.2 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -9274,16 +9274,16 @@
 [debug] == resolving dependencies io.get-coursier#sbt-shared;1.0.2->com.dwijnand#sbt-compat;1.2.5 [runtime->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->default(compile)]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->master]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.17 [provided->default(compile)]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->default(compile)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [provided->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.17 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
@@ -11281,20 +11281,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#recfun-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.7 [scala-tool->default]
+[debug] == resolving dependencies for default#scala_coursera-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.7 [scala-tool->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.7 [scala-tool->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.7 [scala-tool->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.7 [scala-tool->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.7 [scala-tool->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.7 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#jline;2.10.7 {optional=[compile(*), master(*)]}
@@ -11360,14 +11360,14 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.7->org.scala-lang#scala-library;2.10.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.7->org.scala-lang#scala-library;2.10.7 [runtime->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.7 [scala-tool->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.7 [scala-tool->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.7 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#jline;2.10.7 {optional=[compile(*), master(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.7 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#jline;2.10.7 {optional=[compile(*), master(*)]}
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.7 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.7 [scala-tool->optional(default)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.7 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#jline;2.10.7 {optional=[compile(*), master(*)]}
@@ -11423,11 +11423,11 @@
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.7->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [scala-tool->default]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [scala-tool->runtime]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [scala-tool->compile]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [scala-tool->master]
-[debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [scala-tool->default]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [scala-tool->runtime]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [scala-tool->compile]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [scala-tool->master]
+[debug] == resolving dependencies default#scala_coursera-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.7 [scala-tool->optional(default)]
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
@@ -11518,19 +11518,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.7!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 2621ms :: artifacts dl 71ms
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT compile produced in C:\source\Coursera\recfun\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-recfun-build-compile.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT runtime produced in C:\source\Coursera\recfun\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-recfun-build-runtime.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT test produced in C:\source\Coursera\recfun\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-recfun-build-test.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT provided produced in C:\source\Coursera\recfun\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-recfun-build-provided.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT optional produced in C:\source\Coursera\recfun\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-recfun-build-optional.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT compile-internal produced in C:\source\Coursera\recfun\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-recfun-build-compile-internal.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT runtime-internal produced in C:\source\Coursera\recfun\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-recfun-build-runtime-internal.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT test-internal produced in C:\source\Coursera\recfun\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-recfun-build-test-internal.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT plugin produced in C:\source\Coursera\recfun\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-recfun-build-plugin.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT sources produced in C:\source\Coursera\recfun\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-recfun-build-sources.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT docs produced in C:\source\Coursera\recfun\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-recfun-build-docs.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT pom produced in C:\source\Coursera\recfun\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-recfun-build-pom.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT scala-tool produced in C:\source\Coursera\recfun\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-recfun-build-scala-tool.xml
-[debug] 	resolve done (2621ms resolve - 71ms download)
+[debug] :: resolution report :: resolve 6053ms :: artifacts dl 318ms
+[debug] 	report for default#scala_coursera-build;0.1-SNAPSHOT compile produced in C:\source\scala\scala_coursera\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-scala_coursera-build-compile.xml
+[debug] 	report for default#scala_coursera-build;0.1-SNAPSHOT runtime produced in C:\source\scala\scala_coursera\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-scala_coursera-build-runtime.xml
+[debug] 	report for default#scala_coursera-build;0.1-SNAPSHOT test produced in C:\source\scala\scala_coursera\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-scala_coursera-build-test.xml
+[debug] 	report for default#scala_coursera-build;0.1-SNAPSHOT provided produced in C:\source\scala\scala_coursera\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-scala_coursera-build-provided.xml
+[debug] 	report for default#scala_coursera-build;0.1-SNAPSHOT optional produced in C:\source\scala\scala_coursera\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-scala_coursera-build-optional.xml
+[debug] 	report for default#scala_coursera-build;0.1-SNAPSHOT compile-internal produced in C:\source\scala\scala_coursera\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-scala_coursera-build-compile-internal.xml
+[debug] 	report for default#scala_coursera-build;0.1-SNAPSHOT runtime-internal produced in C:\source\scala\scala_coursera\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-scala_coursera-build-runtime-internal.xml
+[debug] 	report for default#scala_coursera-build;0.1-SNAPSHOT test-internal produced in C:\source\scala\scala_coursera\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-scala_coursera-build-test-internal.xml
+[debug] 	report for default#scala_coursera-build;0.1-SNAPSHOT plugin produced in C:\source\scala\scala_coursera\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-scala_coursera-build-plugin.xml
+[debug] 	report for default#scala_coursera-build;0.1-SNAPSHOT sources produced in C:\source\scala\scala_coursera\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-scala_coursera-build-sources.xml
+[debug] 	report for default#scala_coursera-build;0.1-SNAPSHOT docs produced in C:\source\scala\scala_coursera\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-scala_coursera-build-docs.xml
+[debug] 	report for default#scala_coursera-build;0.1-SNAPSHOT pom produced in C:\source\scala\scala_coursera\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-scala_coursera-build-pom.xml
+[debug] 	report for default#scala_coursera-build;0.1-SNAPSHOT scala-tool produced in C:\source\scala\scala_coursera\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-scala_coursera-build-scala-tool.xml
+[debug] 	resolve done (6053ms resolve - 318ms download)
 [info] Done updating.
