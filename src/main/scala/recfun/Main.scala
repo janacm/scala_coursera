@@ -1,13 +1,16 @@
 package recfun
 
+import scala.collection.mutable
+import scala.collection.mutable.ListBuffer
+
 object Main {
   def main(args: Array[String]) {
-            for (row <- 0 to 10) {
-              for (col <- 0 to row){
-                print(pascal(col, row) + " ")
-              }
-              println()
-            }
+    for (row <- 0 to 10) {
+      for (col <- 0 to row){
+        print(pascal(col, row) + " ")
+      }
+      println()
+    }
   }
 
   /**
@@ -72,7 +75,37 @@ object Main {
   /**
     * Exercise 2
     */
-  def balance(chars: List[Char]): Boolean = ???
+  def balance(chars: List[Char]): Boolean = {
+    var stack: mutable.Stack[Char] = new mutable.Stack[Char]()
+    var closeBrackets: mutable.Stack[Char] = new mutable.Stack[Char]()
+    for (elem <- chars) {
+      if (elem == '(' || elem == ')')
+        stack.push(elem)
+    }
+    var balance = true
+    while (stack.nonEmpty){
+      var curr = stack.pop
+      if (curr == ')'){
+        closeBrackets.push(curr)
+      }else {
+        if (closeBrackets.isEmpty){
+          balance = false
+        } else {
+          closeBrackets.pop()
+        }
+      }
+    }
+    if (closeBrackets.nonEmpty) balance = false
+    balance
+  }
+
+  def balance_recursive(chars: List[Char]): Boolean = {
+    if (chars.size < 2) {
+      chars.toString().contains("()")
+    } else {
+      balance_recursive(chars.tail)
+    }
+  }
 
   /**
     * Exercise 3
