@@ -2,5 +2,8 @@
 My solution to the popular Functional Programming in Scala course on Coursera
 
 ## Current solutions
-- Pascals Triangle generator, recursively
+### Week 1 - Recursion
+- Pascals Triangle generator
+- Bracket balancer
+- Change calculator 
 
